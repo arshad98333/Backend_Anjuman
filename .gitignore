@@ -1,0 +1,157 @@
+# ========================
+# GCP Credentials (CRITICAL)
+# ========================
+*.json
+!template.json
+!local_db.json
+ai-form-*.json
+*-credentials.json
+
+# ========================
+# Python
+# ========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+venv*/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ========================
+# Application Directories
+# ========================
+# Incoming files (scanned PDFs/images)
+incoming/
+!incoming/.gitkeep
+
+# Work directories
+work/
+!work/.gitkeep
+
+# Results
+results/
+!results/.gitkeep
+!results/drafts/.gitkeep
+!results/reports/.gitkeep
+
+# Local database
+local_db.json
+
+# ========================
+# IDE / Editors
+# ========================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ========================
+# OS Files
+# ========================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# ========================
+# Environment Variables
+# ========================
+.env
+.env.local
+.env.*.local
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
+*.log.*
+
+# ========================
+# Temporary Files
+# ========================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# ========================
+# PDF/Image Processing
+# ========================
+# Temporary processed files
+*.tmp.pdf
+*.tmp.jpg
+*.tmp.png
+
+# ========================
+# Archive
+# ========================
+archive/
+*.zip
+*.tar.gz
+*.rar
