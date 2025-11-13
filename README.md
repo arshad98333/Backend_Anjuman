@@ -39,8 +39,8 @@ This system processes physical registration forms through an intelligent pipelin
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd anjuman_backend
+git clone https://github.com/arshad98333/Backend_Anjuman.git
+cd Backend_Anjuman
 ```
 
 2. Create and activate virtual environment:
@@ -188,13 +188,13 @@ Suitable for:
 
 ## Support
 
-For issues or queries, please raise an issue in the repository or contact the development team.
+For issues or queries, please raise an issue in the repository at https://github.com/arshad98333/Backend_Anjuman/issues or contact the development team.
 
 ## Licence
 
-[Specify licence type]
+This project is open source and available under the MIT Licence.
 
 ## Version
 
 Current Version: 1.0.0  
-Last Updated: November 2024
+Last Updated: November 2025
