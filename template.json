@@ -1,0 +1,36 @@
+{
+    "page_base": {"width": 2480, "height": 3508, "dpi": 300},
+    "zones": {
+      "HeadOfFamily.name": {"page": 1, "bbox":[300,420,1200,120]},
+      "HeadOfFamily.fatherOrHusbandName": {"page": 1, "bbox":[300,550,1200,120]},
+      "HeadOfFamily.voterID": {"page": 1, "bbox":[1600,420,700,120]},
+      "HeadOfFamily.aadhaarNumber": {"page": 1, "bbox":[1600,550,700,120]},
+      "HeadOfFamily.gender": {"page": 1, "bbox":[300,700,400,80]},
+      "HeadOfFamily.age": {"page": 1, "bbox":[760,700,200,80]},
+      "HeadOfFamily.qualification": {"page": 1, "bbox":[300,780,600,100]},
+      "HeadOfFamily.occupation": {"page": 1, "bbox":[930,780,600,100]},
+      "HeadOfFamily.address": {"page": 1, "bbox":[300,880,2000,220]},
+      "HeadOfFamily.ward": {"page": 1, "bbox":[300,1120,200,80]},
+      "HeadOfFamily.mobileNumber": {"page": 1, "bbox":[1600,1120,600,80]},
+      "HeadOfFamily.namazMasjid": {"page": 1, "bbox":[300,1210,1200,100]},
+      "family_table": {
+         "page": 2,
+         "bbox": [200, 300, 2080, 2000],
+         "columns": [
+           {"key":"memberName","x":200,"w":450},
+           {"key":"relationToHOF","x":660,"w":300},
+           {"key":"gender","x":980,"w":150},
+           {"key":"age","x":1140,"w":150},
+           {"key":"qualification","x":1310,"w":300},
+           {"key":"aadhaarNumberIfUnder18","x":1620,"w":300},
+           {"key":"voterIDIfAbove18","x":1930,"w":330},
+           {"key":"occupation","x":2260,"w":300}
+         ]
+      },
+      "DocumentChecklist.HOFVoterID": {"page": 3, "bbox":[300,200,200,80]},
+      "LegalDeclaration.signatureOfHOF": {"page": 4, "bbox":[300,2000,800,200]},
+      "AcknowledgementSlip.nameOfHeadOfFamily": {"page": 4, "bbox":[300,2200,900,120]},
+      "AcknowledgementSlip.dateReceived": {"page": 4, "bbox":[1600,2200,300,100]}
+    }
+  }
+  
